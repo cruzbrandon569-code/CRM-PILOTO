@@ -23,6 +23,8 @@ CRM a la medida para **Ártica Ingenieros Especialistas en HVAC**, un cliente pi
 npm install
 ```
 
+> **Windows con scripts bloqueados:** si PowerShell responde *"la ejecución de scripts está deshabilitada en este sistema"*, usa `npm.cmd` y `npx.cmd` en lugar de `npm` y `npx` (por ejemplo, `npm.cmd run dev`). No hace falta cambiar la política de seguridad de Windows.
+
 ### 2. Conectar Supabase
 1. Crea un proyecto en [supabase.com](https://supabase.com) (por ejemplo `crm-artica-hvac`).
 2. Copia `.env.example` como `.env.local` y llena la URL y la **publishable key** (Project Settings → API Keys).

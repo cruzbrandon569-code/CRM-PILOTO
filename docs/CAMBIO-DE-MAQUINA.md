@@ -35,3 +35,7 @@ Todo lo importante vive fuera de la computadora:
    ```bash
    npm run dev
    ```
+   Si PowerShell bloquea los scripts, usa `npm.cmd` en lugar de `npm`:
+   ```bash
+   npm.cmd run dev
+   ```
